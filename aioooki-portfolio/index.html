@@ -1,0 +1,938 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b0f">
+  <title>AIOOOKI® — 3D Character Designer &amp; Sculptor</title>
+  <meta name="description" content="AIOOOKI is an independent 3D character designer and lookdev artist sculpting iconic digital characters, synthetic creatures and stylized figures for games, cinematics and fashion.">
+  <meta property="og:title" content="AIOOOKI® — 3D Character Designer &amp; Sculptor">
+  <meta property="og:description" content="3D Character Design. Digital Sculpting. Look Development. Iconic characters and creatures with a pulse.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aioooki.studio">
+  <meta property="og:image" content="https://aioooki.studio/assets/img/ghost-chrome.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AIOOOKI® — 3D Character Designer &amp; Sculptor">
+  <meta name="twitter:description" content="3D Character Design. Digital Sculpting. Look Development. Iconic characters and creatures with a pulse.">
+  <meta name="twitter:image" content="https://aioooki.studio/assets/img/ghost-chrome.webp">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/bebas-neue.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/img/aioooki-mark.png" as="image">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/catalogue.css">
+  <link rel="stylesheet" href="css/case-aioooki.css">
+  <link rel="stylesheet" href="css/case-ghost.css">
+  <link rel="stylesheet" href="css/studio-contact.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <noscript>
+    <style>
+      .loader, .cursor { display: none !important; }
+      body.is-loading { overflow: auto !important; }
+      [data-reveal] { opacity: 1 !important; transform: none !important; }
+    </style>
+  </noscript>
+  <script src="js/app.js" defer></script>
+</head>
+<body class="is-loading">
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="grain" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span data-scroll-progress></span></div>
+
+  <div class="cursor" data-cursor-wrap aria-hidden="true">
+    <span class="cursor__dot"></span>
+    <span class="cursor__ring"><span class="cursor__label" data-cursor-label></span></span>
+  </div>
+
+  <div class="loader" data-loader aria-hidden="true">
+    <div class="loader__grid" aria-hidden="true"></div>
+    <div class="loader__inner">
+      <div class="loader__top">
+        <span class="mono">AIOOOKI® / 3D CHARACTER ATELIER</span>
+        <span class="mono">LOADING 3D ASSETS</span>
+      </div>
+      <div class="loader__mark">
+        <img src="assets/img/aioooki-mark.png" alt="">
+      </div>
+      <div class="loader__bottom">
+        <span class="loader__count" data-loader-count>000</span>
+        <div class="loader__bar"><span data-loader-bar></span></div>
+        <span class="loader__caption mono">3D CHARACTER / SCULPT / LOOKDEV</span>
+      </div>
+    </div>
+    <div class="loader__curtain" aria-hidden="true"></div>
+  </div>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="AIOOOKI — back to top">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48" focusable="false">
+          <defs>
+            <linearGradient id="brandFan" x1="0" y1="1" x2="0" y2="0">
+              <stop offset="0" stop-color="#3FE9C7"/>
+              <stop offset=".52" stop-color="#8B3E91"/>
+              <stop offset="1" stop-color="#FF8EB3"/>
+            </linearGradient>
+          </defs>
+          <g transform="translate(24 39)" fill="url(#brandFan)">
+            <path d="M0 0 C -4 -8 -6.5 -18 -3.4 -28.5 C -1.8 -33 1.8 -33 3.4 -28.5 C 6.5 -18 4 -8 0 0 Z" transform="rotate(0)"/>
+            <path d="M0 0 C -4 -8 -6.5 -18 -3.4 -28.5 C -1.8 -33 1.8 -33 3.4 -28.5 C 6.5 -18 4 -8 0 0 Z" transform="rotate(25)"/>
+            <path d="M0 0 C -4 -8 -6.5 -18 -3.4 -28.5 C -1.8 -33 1.8 -33 3.4 -28.5 C 6.5 -18 4 -8 0 0 Z" transform="rotate(50)"/>
+            <path d="M0 0 C -4 -8 -6.5 -18 -3.4 -28.5 C -1.8 -33 1.8 -33 3.4 -28.5 C 6.5 -18 4 -8 0 0 Z" transform="rotate(75)"/>
+            <path d="M0 0 C -4 -8 -6.5 -18 -3.4 -28.5 C -1.8 -33 1.8 -33 3.4 -28.5 C 6.5 -18 4 -8 0 0 Z" transform="rotate(-25)"/>
+            <path d="M0 0 C -4 -8 -6.5 -18 -3.4 -28.5 C -1.8 -33 1.8 -33 3.4 -28.5 C 6.5 -18 4 -8 0 0 Z" transform="rotate(-50)"/>
+            <path d="M0 0 C -4 -8 -6.5 -18 -3.4 -28.5 C -1.8 -33 1.8 -33 3.4 -28.5 C 6.5 -18 4 -8 0 0 Z" transform="rotate(-75)"/>
+          </g>
+        </svg>
+      </span>
+      <span class="brand__word">AIOOOKI<sup>®</sup></span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary">
+      <a class="nav-link" href="#work"><span>01</span><span>Catalogue</span></a>
+      <a class="nav-link" href="#ghost"><span>02</span><span>Characters</span></a>
+      <a class="nav-link" href="#craft"><span>03</span><span>Lookdev Lab</span></a>
+      <a class="nav-link" href="#studio"><span>04</span><span>Studio</span></a>
+      <a class="nav-link" href="#contact"><span>05</span><span>Contact</span></a>
+    </nav>
+
+    <div class="header-actions">
+      <span class="header-time mono"><span class="live-dot"></span><span data-clock>--:--:--</span></span>
+      <a class="btn btn--small" href="#contact" data-magnetic><span>Book Character</span><span class="btn__arrow">↗</span></a>
+      <button class="menu-btn" type="button" data-menu-open aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
+        <span class="menu-btn__lines" aria-hidden="true"><i></i><i></i></span>
+        <span class="menu-btn__text">Menu</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="menu" id="site-menu" data-menu aria-hidden="true">
+    <div class="menu__atmosphere" aria-hidden="true"></div>
+    <div class="menu__inner">
+      <div class="menu__top">
+        <span class="mono">AIOOOKI® / 3D CHARACTER ATELIER</span>
+        <button class="menu__close" type="button" data-menu-close aria-label="Close menu">Close <span>✕</span></button>
+      </div>
+      <nav class="menu__nav" aria-label="Mobile">
+        <a href="#work" data-menu-link><span>01</span>Catalogue<em>↗</em></a>
+        <a href="#ghost" data-menu-link><span>02</span>Characters<em>↗</em></a>
+        <a href="#craft" data-menu-link><span>03</span>Lookdev Lab<em>↗</em></a>
+        <a href="#studio" data-menu-link><span>04</span>Studio<em>↗</em></a>
+        <a href="#contact" data-menu-link><span>05</span>Contact<em>↗</em></a>
+      </nav>
+      <div class="menu__foot">
+        <p>Independent 3D character designer &amp; digital sculptor. Sculpting characters with a pulse.</p>
+        <div class="menu__socials">
+          <a href="https://www.instagram.com/ai.ooo.ki/" target="_blank" rel="noopener">Instagram ↗</a>
+          <a href="https://www.behance.net/" target="_blank" rel="noopener">Behance ↗</a>
+          <a href="https://www.artstation.com/" target="_blank" rel="noopener">ArtStation ↗</a>
+        </div>
+        <span class="mono">OPEN FOR CHARACTER COMMISSIONS — 2026 / 2027</span>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <section class="hero" id="top" data-nav="chalk">
+      <div class="hero__atmosphere" aria-hidden="true">
+        <div class="hero__glow hero__glow--pink"></div>
+        <div class="hero__glow hero__glow--teal"></div>
+        <div class="hero__rays"></div>
+        <div class="hero__grid"></div>
+      </div>
+      <span class="reg-mark reg-mark--tl" aria-hidden="true">+</span>
+      <span class="reg-mark reg-mark--tr" aria-hidden="true">+</span>
+      <span class="reg-mark reg-mark--bl" aria-hidden="true">+</span>
+      <span class="reg-mark reg-mark--br" aria-hidden="true">+</span>
+
+      <div class="hero__meta">
+        <div class="hero__meta-left">
+          <p class="eyebrow"><span class="live-dot"></span> 3D Character Designer &amp; Digital Sculptor</p>
+          <p class="hero__intro">I sculpt <em>characters with a pulse</em> — iconic figures, synthetic creatures and stylized protagonists for games, cinematics, collectibles and fashion.</p>
+        </div>
+        <div class="hero__meta-right">
+          <span class="mono">Portfolio / 3D Character Art</span>
+          <span class="mono">Sculpt · Lookdev · Topology</span>
+          <span class="mono">© 2026</span>
+        </div>
+      </div>
+
+      <div class="hero__stage">
+        <h1 class="hero__title">
+          <span class="hero__line hero__line--one" data-reveal="hero">CHARACTER</span>
+          <span class="hero__line hero__line--two" data-reveal="hero">DESIGNER</span>
+        </h1>
+
+        <div class="hero__mark-wrap" data-tilt>
+          <div class="hero__halo" aria-hidden="true"></div>
+          <div class="hero__mark-tilt">
+            <div class="hero__mark-float">
+              <img class="hero__mark" src="assets/img/aioooki-mark.png" alt="AIOOOKI — sculptural fan mark">
+            </div>
+          </div>
+          <span class="hero__sticker hero__sticker--a" aria-hidden="true">Character<br>sculptor</span>
+          <span class="hero__sticker hero__sticker--b" aria-hidden="true">Built for<br>motion &amp; light</span>
+          <div class="hero__badge" aria-hidden="true">
+            <svg viewBox="0 0 160 160" focusable="false">
+              <defs>
+                <path id="badgeCircle" d="M80,80 m-58,0 a58,58 0 1,1 116,0 a58,58 0 1,1 -116,0"/>
+              </defs>
+              <text>
+                <textPath href="#badgeCircle">3D CHARACTER ARTIST · AIOOOKI 2026 · 3D CHARACTER ARTIST ·</textPath>
+              </text>
+            </svg>
+            <span class="hero__badge-star">✦</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__footer">
+        <p class="hero__note"><span class="mono">The craft</span><br>Uncompromising anatomy. Distinct silhouettes. Hyper-tactile PBR shaders. Built for gaming pipelines and cinematic renders that refuse to be background assets.</p>
+        <a class="scroll-cue" href="#manifesto"><span>Scroll to enter</span><span class="scroll-cue__line" aria-hidden="true"></span></a>
+        <div class="hero__coords mono">ZBrush · Substance 3D · Unreal Engine 5<br>High-poly sculpt to real-time delivery</div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>3D Character Design <i>✦</i> Digital Sculpting <i>✦</i> Look Development <i>✦</i> Organic &amp; Hard-Surface <i>✦</i> Real-Time Topology <i>✦</i> Creature Art <i>✦</i> Facial Blendshapes <i>✦</i> Production Turnarounds <i>✦</i></span>
+        <span>3D Character Design <i>✦</i> Digital Sculpting <i>✦</i> Look Development <i>✦</i> Organic &amp; Hard-Surface <i>✦</i> Real-Time Topology <i>✦</i> Creature Art <i>✦</i> Facial Blendshapes <i>✦</i> Production Turnarounds <i>✦</i></span>
+      </div>
+    </div>
+
+    <section class="manifesto section" id="manifesto" data-nav="ink">
+      <div class="container">
+        <div class="section-line">
+          <span class="mono">01 / Manifesto</span>
+          <span class="mono">Philosophy of the sculpt</span>
+        </div>
+
+        <div class="manifesto__grid">
+          <h2 class="manifesto__title" data-reveal>Not just a 3D mesh.<br>A living,<br><span class="serif">breathing</span> character.</h2>
+          <div class="manifesto__copy" data-reveal>
+            <p class="manifesto__lead">Great characters do not simply populate a scene. They command the frame, carry weight, and evoke an entire world with a single turn of the head.</p>
+            <p>I'm AIOOOKI — an independent 3D character designer and digital sculptor. I craft stylized figures, synthetic muses and biomechanical creatures where every silhouette is deliberate, every micro-fold has tension, and every material responds realistically to light.</p>
+            <a class="link-arrow" href="#studio">Explore the pipeline <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <span class="stat__num">01</span>
+            <span class="stat__label mono">Sculpting</span>
+            <p>Primary forms, anatomical rhythm and high-frequency detailing in ZBrush.</p>
+          </div>
+          <div class="stat">
+            <span class="stat__num">02</span>
+            <span class="stat__label mono">Lookdev</span>
+            <p>Hyper-tactile PBR shaders: subsurface scattering skin, liquid chrome and woven fabrics.</p>
+          </div>
+          <div class="stat">
+            <span class="stat__num">03</span>
+            <span class="stat__label mono">Topology</span>
+            <p>Clean quad edge flow engineered for rigging, deformation and real-time engines.</p>
+          </div>
+          <div class="stat">
+            <span class="stat__num">100<span>%</span></span>
+            <span class="stat__label mono">Original IP</span>
+            <p>Bespoke character designs with distinct silhouettes — never generic stock basemeshes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         02 / 3D CHARACTER CATALOGUE
+         ============================================ -->
+    <section class="catalogue-section section" id="work" data-nav="ink">
+  <div class="container">
+    <div class="section-line">
+      <span class="mono">02 / Character Catalogue</span>
+      <span class="mono">@ai.ooo.ki · 23 Works</span>
+    </div>
+
+    <div class="catalogue__head">
+      <div class="catalogue__head-main">
+        <p class="case__eyebrow"><span class="live-dot"></span> Digital Atelier / Production Archive</p>
+        <h2 class="catalogue__title" data-reveal>THE CHARACTER <span class="serif">CATALOGUE.</span></h2>
+        <p class="catalogue__lead" data-reveal>Original 3D character designs, sculpt breakdowns, turnaround reels and lookdev studies — direct from the studio of <strong>@ai.ooo.ki</strong>.</p>
+      </div>
+      <div class="catalogue__head-aside" data-reveal>
+        <a class="catalogue__ig-btn" href="https://www.instagram.com/ai.ooo.ki/" target="_blank" rel="noopener">
+          <svg class="catalogue__ig-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+          <div class="catalogue__ig-text">
+            <span class="mono">Follow on Instagram</span>
+            <strong>@ai.ooo.ki ↗</strong>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Filter Bar -->
+    <div class="catalogue__toolbar" data-reveal>
+      <div class="catalogue__filters" role="tablist" aria-label="Filter character catalogue">
+        <button class="catalogue__filter-btn is-active" type="button" data-filter="all" role="tab" aria-selected="true">
+          <span>All Works</span>
+          <span class="catalogue__filter-count mono">23</span>
+        </button>
+        <button class="catalogue__filter-btn" type="button" data-filter="reel" role="tab" aria-selected="false">
+          <span>Reels</span>
+          <span class="catalogue__filter-count mono">14</span>
+        </button>
+        <button class="catalogue__filter-btn" type="button" data-filter="post" role="tab" aria-selected="false">
+          <span>Stills</span>
+          <span class="catalogue__filter-count mono">9</span>
+        </button>
+      </div>
+      <div class="catalogue__status mono">
+        <span class="catalogue__status-dot"></span>
+        <span data-catalogue-status>Showing 6 of 23 pieces</span>
+      </div>
+    </div>
+
+    <!-- Grid -->
+    <div class="catalogue__grid" id="catalogue-grid">
+      <article class="cat-card" data-cat="post" data-index="0" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-01-DZ6EiQzDL6A.jpg" alt="Nyara Voss" loading="lazy">
+          
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">Nyara Voss</span>
+            <span class="cat-card__num mono">#01</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card" data-cat="reel" data-index="1" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-02-DZlbh70SfUk.jpg" alt="Elena" loading="lazy">
+          <span class="cat-card__play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg></span>
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">Elena</span>
+            <span class="cat-card__num mono">#02</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card" data-cat="reel" data-index="2" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-03-DZgLiVtypme.jpg" alt="A creature that shouldn't exist." loading="lazy">
+          <span class="cat-card__play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg></span>
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">A creature that shouldn't exist.</span>
+            <span class="cat-card__num mono">#03</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card" data-cat="reel" data-index="3" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-04-DZdzdPfMN8A.jpg" alt="Brain Drop" loading="lazy">
+          <span class="cat-card__play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg></span>
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">Brain Drop</span>
+            <span class="cat-card__num mono">#04</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card" data-cat="reel" data-index="4" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-05-DZQbjNFsHQK.jpg" alt="DEUS VULT" loading="lazy">
+          <span class="cat-card__play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg></span>
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">DEUS VULT</span>
+            <span class="cat-card__num mono">#05</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card" data-cat="post" data-index="5" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-06-DZOFrJKjDz7.jpg" alt="Title - Our Lady of Chrome Hearts MichelAngelo X ChromeHearts - Inspired Graphic" loading="lazy">
+          
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">Title - Our Lady of Chrome Hearts MichelAngelo X ChromeHearts - Inspired Graphic</span>
+            <span class="cat-card__num mono">#06</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card is-collapsed" data-cat="post" data-index="6" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-07-DZGkuDPjEN3.jpg" alt="Project Aether" loading="lazy">
+          
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">Project Aether</span>
+            <span class="cat-card__num mono">#07</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card is-collapsed" data-cat="post" data-index="7" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-08-DZDwxoojPQz.jpg" alt="Lean" loading="lazy">
+          
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">Lean</span>
+            <span class="cat-card__num mono">#08</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card is-collapsed" data-cat="post" data-index="8" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-09-DY_J2s7DNTU.jpg" alt="V" loading="lazy">
+          
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">V</span>
+            <span class="cat-card__num mono">#09</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card is-collapsed" data-cat="reel" data-index="9" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-10-DXIVDLQjFmo.jpg" alt="Feelings" loading="lazy">
+          <span class="cat-card__play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg></span>
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">Feelings</span>
+            <span class="cat-card__num mono">#10</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card is-collapsed" data-cat="post" data-index="10" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-11-DXG7hnODH1V.jpg" alt="Metamorphosis" loading="lazy">
+          
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">Metamorphosis</span>
+            <span class="cat-card__num mono">#11</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card is-collapsed" data-cat="post" data-index="11" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-12-DXF0Tg-jHcT.jpg" alt="Dune" loading="lazy">
+          
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">Dune</span>
+            <span class="cat-card__num mono">#12</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card is-collapsed" data-cat="post" data-index="12" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-13-DXFxPZgDIlr.jpg" alt="They call him Ghost" loading="lazy">
+          
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">They call him Ghost</span>
+            <span class="cat-card__num mono">#13</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card is-collapsed" data-cat="post" data-index="13" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-14-DXDKvOEDM6u.jpg" alt="Jakc" loading="lazy">
+          
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">Jakc</span>
+            <span class="cat-card__num mono">#14</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card is-collapsed" data-cat="reel" data-index="14" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-15-DXAX6DCkoXE.jpg" alt="KUROHA" loading="lazy">
+          <span class="cat-card__play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg></span>
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">KUROHA</span>
+            <span class="cat-card__num mono">#15</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card is-collapsed" data-cat="reel" data-index="15" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-16-DW7kxOUEl3x.jpg" alt="Goro" loading="lazy">
+          <span class="cat-card__play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg></span>
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">Goro</span>
+            <span class="cat-card__num mono">#16</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card is-collapsed" data-cat="reel" data-index="16" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-17-DWSS9ECkoYW.jpg" alt="Luca" loading="lazy">
+          <span class="cat-card__play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg></span>
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">Luca</span>
+            <span class="cat-card__num mono">#17</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card is-collapsed" data-cat="reel" data-index="17" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-18-DWPAlH1kpZj.jpg" alt="He just shows up when something needs to end." loading="lazy">
+          <span class="cat-card__play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg></span>
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">He just shows up when something needs to end.</span>
+            <span class="cat-card__num mono">#18</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card is-collapsed" data-cat="reel" data-index="18" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-19-DWIR0x_khLi.jpg" alt="Luke - Was there before" loading="lazy">
+          <span class="cat-card__play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg></span>
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">Luke - Was there before</span>
+            <span class="cat-card__num mono">#19</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card is-collapsed" data-cat="reel" data-index="19" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-20-DWFdvNVkgOk.jpg" alt="She a BAD BAD GIRL." loading="lazy">
+          <span class="cat-card__play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg></span>
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">She a BAD BAD GIRL.</span>
+            <span class="cat-card__num mono">#20</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card is-collapsed" data-cat="reel" data-index="20" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-21-DWCzDkWEnDl.jpg" alt="Lab Master" loading="lazy">
+          <span class="cat-card__play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg></span>
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">Lab Master</span>
+            <span class="cat-card__num mono">#21</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card is-collapsed" data-cat="reel" data-index="21" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-22-DWCQSxtEiyR.jpg" alt="Axel Ace" loading="lazy">
+          <span class="cat-card__play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg></span>
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">Axel Ace</span>
+            <span class="cat-card__num mono">#22</span>
+          </div>
+        </div>
+      </article>
+      <article class="cat-card is-collapsed" data-cat="reel" data-index="22" data-cat-open>
+        <div class="cat-card__media">
+          <img class="cat-card__img" src="assets/catalogue/img/piece-23-DV0ZVU7DBXl.jpg" alt="Lotus" loading="lazy">
+          <span class="cat-card__play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg></span>
+          <div class="cat-card__overlay">
+            <span class="cat-card__title">Lotus</span>
+            <span class="cat-card__num mono">#23</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Load More -->
+    <div class="catalogue__actions" data-reveal>
+      <button class="btn btn--outline catalogue__load-more" id="catalogue-load-more" type="button">
+        <span>Load More</span>
+        <span class="mono" id="catalogue-remaining-count">(+17)</span>
+        <span class="btn__arrow">↓</span>
+      </button>
+      <button class="btn btn--ghost catalogue__show-all" id="catalogue-show-all" type="button">
+        <span>Show All 23</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+    <section class="case case--ghost" id="ghost" data-nav="ink">
+      <div class="ghost__atmosphere" aria-hidden="true">
+        <span class="ghost__word">V-47</span>
+        <span class="ghost__blob"></span>
+      </div>
+      <div class="container">
+        <div class="section-line">
+          <span class="mono">03 / Featured Character IP</span>
+          <span class="mono">Production Mesh · 2026</span>
+        </div>
+
+        <header class="ghost__head">
+          <p class="case__eyebrow">Character Universe / Synthetic Muse</p>
+          <h2 class="ghost__title" data-reveal>PROJECT<br>GHOST <span class="ghost__title-outline">V-47</span></h2>
+          <div class="ghost__summary">
+            <p class="case__lede">Part runway model. Part glitch in the simulation. A character built to carry a high-concept virtual fashion label across cinematic renders, game engines and physical collectibles.</p>
+            <div class="subject-card">
+              <span class="mono">Subject file / 07</span>
+              <dl>
+                <div><dt>Class</dt><dd>Synthetic muse</dd></div>
+                <div><dt>Polycount</dt><dd>85.4K Quads (Clean Retopo)</dd></div>
+                <div><dt>Status</dt><dd>UE5 &amp; Rig-Ready</dd></div>
+              </dl>
+            </div>
+          </div>
+        </header>
+
+        <div class="ghost__showcase">
+          <div class="compare" data-compare data-cursor="Drag">
+            <picture class="compare__img compare__base">
+              <source srcset="assets/img/ghost-beauty.webp" type="image/webp">
+              <img src="assets/img/ghost-beauty.jpg" alt="Ghost V-47 in soft beauty styling, purple locs and a lilac halo" loading="eager" decoding="async">
+            </picture>
+            <div class="compare__top">
+              <picture class="compare__img">
+                <source srcset="assets/img/ghost-chrome.webp" type="image/webp">
+                <img src="assets/img/ghost-chrome.jpg" alt="Ghost V-47 rendered in full liquid chrome" loading="eager" decoding="async">
+              </picture>
+            </div>
+            <div class="compare__line" aria-hidden="true"><span class="compare__handle"><i>←</i><i>→</i></span></div>
+            <button class="compare__tag compare__tag--left mono" type="button" aria-label="Show Beauty Render">01 / Beauty Render</button>
+            <button class="compare__tag compare__tag--right mono" type="button" aria-label="Show Liquid Chrome">02 / Liquid Chrome</button>
+            <span class="compare__hint mono">Drag to shift material</span>
+            <span class="compare__scan" aria-hidden="true"></span>
+            <input class="compare__range" type="range" min="0" max="100" value="50" step="1" aria-label="Shift between the beauty and chrome renders">
+          </div>
+
+          <aside class="ghost__notes" data-reveal>
+            <span class="mono">The character sculpt</span>
+            <p class="ghost__quote">A muse with no past and too many futures.</p>
+            <p>Ghost V-47 is an original character IP sculpted from scratch in ZBrush, styled like a Parisian runway editorial, and surfaced with proprietary multi-layered PBR shaders. The character shifts between soft beauty SSS skin, molten liquid chrome, production clay and low-poly quad wireframe.</p>
+            <p>Engineered with deformation loops around the shoulders, knees, and facial landmarks to seamlessly perform across real-time Unreal Engine 5 cinematics and 3D print model kits.</p>
+            <div class="material-tags">
+              <button type="button" data-material-target="beauty">Beauty SSS</button>
+              <button type="button" data-material-target="chrome">Liquid Chrome</button>
+            </div>
+            <div class="ghost__hint">
+              <span class="ghost__hint-line" aria-hidden="true"></span>
+              <span class="mono">Click or drag anywhere across the character to shift materials</span>
+            </div>
+          </aside>
+        </div>
+
+        <div class="ghost__marquee" aria-hidden="true">
+          <div class="ticker__track">
+            <span>Beauty SSS <i>✦</i> Liquid Chrome <i>✦</i> Clay Sculpt <i>✦</i> Wireframe Topology <i>✦</i> Synthetic Muse <i>✦</i> Unreal 5 Ready <i>✦</i></span>
+            <span>Beauty SSS <i>✦</i> Liquid Chrome <i>✦</i> Clay Sculpt <i>✦</i> Wireframe Topology <i>✦</i> Synthetic Muse <i>✦</i> Unreal 5 Ready <i>✦</i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case case--aioooki" id="craft" data-nav="chalk">
+      <div class="case__ambient" aria-hidden="true">
+        <span class="case__ambient-line"></span>
+        <span class="case__ambient-glow"></span>
+      </div>
+      <div class="container">
+        <div class="section-line">
+          <span class="mono">04 / Craft &amp; Lookdev Lab</span>
+          <span class="mono">Anatomy · Shaders · Deformation</span>
+        </div>
+
+        <div class="system" id="system">
+          <div class="subhead">
+            <span class="mono">04A / Pipeline Toolkit</span>
+            <h3 class="subhead__title">One silhouette.<br>Infinite <span class="serif">surfaces.</span></h3>
+            <span class="mono">Multi-state character shaders</span>
+          </div>
+
+          <div class="system__grid">
+            <div class="system__side">
+              <p class="case__eyebrow">The character toolkit</p>
+              <p class="system__intro">A character must hold its weight under flat key lights, liquid-chrome reflections and real-time engine shaders. Every state is engineered for high-fidelity production.</p>
+              <div class="tabs" role="tablist" aria-label="Character pipeline elements">
+                <button class="tab is-active" type="button" id="tab-mark" role="tab" aria-selected="true" aria-controls="panel-mark" data-tab="mark"><span class="mono">01</span><span class="tab__name">Sculpt &amp; Anatomy</span><span class="tab__plus" aria-hidden="true">+</span></button>
+                <button class="tab" type="button" id="tab-color" role="tab" aria-selected="false" aria-controls="panel-color" data-tab="color" tabindex="-1"><span class="mono">02</span><span class="tab__name">PBR Shaders</span><span class="tab__plus" aria-hidden="true">+</span></button>
+                <button class="tab" type="button" id="tab-type" role="tab" aria-selected="false" aria-controls="panel-type" data-tab="type" tabindex="-1"><span class="mono">03</span><span class="tab__name">Codename Spec</span><span class="tab__plus" aria-hidden="true">+</span></button>
+                <button class="tab" type="button" id="tab-motion" role="tab" aria-selected="false" aria-controls="panel-motion" data-tab="motion" tabindex="-1"><span class="mono">04</span><span class="tab__name">Turntable Dynamics</span><span class="tab__plus" aria-hidden="true">+</span></button>
+              </div>
+            </div>
+
+            <div class="system__stage">
+              <div class="panel panel--mark is-active" id="panel-mark" role="tabpanel" aria-labelledby="tab-mark">
+                <div class="panel__top"><span class="mono">01 / Master Sculpt Blueprint</span><span class="mono">ZBrush / 42M Polys</span></div>
+                <div class="mark-blueprint">
+                  <span class="bp-label bp-label--a mono">MESH / 85.4K QUADS</span>
+                  <span class="bp-label bp-label--b mono">SUB-D / 05 LEVELS</span>
+                  <span class="bp-label bp-label--c mono">RIG / UE5 MANNEQUIN</span>
+                  <span class="bp-label bp-label--d mono">OPTICAL / SSS SKIN</span>
+                  <img src="assets/img/aioooki-mark.png" alt="AIOOOKI character emblem on a technical grid" loading="lazy">
+                  <span class="bp-tick bp-tick--a" aria-hidden="true"></span>
+                  <span class="bp-tick bp-tick--b" aria-hidden="true"></span>
+                  <span class="bp-tick bp-tick--c" aria-hidden="true"></span>
+                </div>
+                <div class="panel__bottom">
+                  <p>Every character sculpt begins with anatomical gesture, silhouette rhythm and volume balance. High-frequency pores and micro-folds are secondary to bold, unmistakable shape language.</p>
+                  <span class="mono">Sculpt Blueprint / 01</span>
+                </div>
+              </div>
+
+              <div class="panel panel--color" id="panel-color" role="tabpanel" aria-labelledby="tab-color" hidden>
+                <div class="panel__top"><span class="mono">02 / Lookdev Pigments</span><span class="mono">Five material frequencies</span></div>
+                <div class="colour-stage">
+                  <div class="colour-stage__label"><span class="mono">Current material frequency</span><span class="colour-stage__hint">Click a pigment to test</span></div>
+                  <strong class="colour-stage__name" data-palette-name>Electric Pink</strong>
+                  <span class="colour-stage__hex mono" data-palette-hex>#FF8EB3</span>
+                </div>
+                <div class="swatches" role="list">
+                  <button class="swatch is-active" type="button" data-color="#FF8EB3" data-name="Bioluminescent Pink" data-ink="#080B0F" style="--c:#FF8EB3" aria-label="Bioluminescent Pink, #FF8EB3"><span class="swatch__chip"></span><span class="swatch__name">Bioluminescent pink</span><span class="swatch__hex mono">#FF8EB3</span></button>
+                  <button class="swatch" type="button" data-color="#5A2D6E" data-name="Synthetic Plum" data-ink="#F6EFE5" style="--c:#5A2D6E" aria-label="Synthetic Plum, #5A2D6E"><span class="swatch__chip"></span><span class="swatch__name">Synthetic plum</span><span class="swatch__hex mono">#5A2D6E</span></button>
+                  <button class="swatch" type="button" data-color="#3FE9C7" data-name="Cyber Mint Optical" data-ink="#080B0F" style="--c:#3FE9C7" aria-label="Cyber Mint Optical, #3FE9C7"><span class="swatch__chip"></span><span class="swatch__name">Cyber mint</span><span class="swatch__hex mono">#3FE9C7</span></button>
+                  <button class="swatch" type="button" data-color="#080B0F" data-name="Obsidian Carbon" data-ink="#F6EFE5" style="--c:#080B0F" aria-label="Obsidian Carbon, #080B0F"><span class="swatch__chip"></span><span class="swatch__name">Obsidian carbon</span><span class="swatch__hex mono">#080B0F</span></button>
+                  <button class="swatch" type="button" data-color="#F6EFE5" data-name="Porcelain Clay" data-ink="#080B0F" style="--c:#F6EFE5" aria-label="Porcelain Clay, #F6EFE5"><span class="swatch__chip"></span><span class="swatch__name">Porcelain clay</span><span class="swatch__hex mono">#F6EFE5</span></button>
+                </div>
+                <div class="panel__bottom">
+                  <p>Shading defines the physical soul of the sculpt. Subsurface skin warmth contrasts with cold liquid chrome gloss and matte carbon fabrics.</p>
+                  <button class="copy-btn" type="button" data-copy="#FF8EB3" data-copy-label data-cursor="Copy">Copy hex <span aria-hidden="true">↗</span></button>
+                </div>
+              </div>
+
+              <div class="panel panel--type" id="panel-type" role="tabpanel" aria-labelledby="tab-type" hidden>
+                <div class="panel__top"><span class="mono">03 / Character Designation</span><span class="mono">Call-sign generator</span></div>
+                <div class="type-stage">
+                  <label class="type-stage__label mono" for="type-preview-input">Type character designation ↓</label>
+                  <input class="type-stage__input" id="type-preview-input" type="text" value="GHOST V-47" maxlength="20" spellcheck="false" autocomplete="off" aria-label="Preview character designation">
+                  <div class="type-stage__rule"></div>
+                  <div class="type-stage__meta"><span class="mono" data-type-font>Bebas Neue / Display</span><span class="mono">72pt / tracking -2%</span></div>
+                </div>
+                <div class="type-controls" role="group" aria-label="Choose a typography register">
+                  <button class="type-chip is-active" type="button" data-font="display">Display</button>
+                  <button class="type-chip" type="button" data-font="sans">Sans</button>
+                  <button class="type-chip" type="button" data-font="mono">Data / Spec</button>
+                </div>
+                <div class="panel__bottom">
+                  <p>Typographic styling for character universe branding, UI overlays and cinematic titles.</p>
+                  <span class="mono">Bebas / Archivo / Space Mono</span>
+                </div>
+              </div>
+
+              <div class="panel panel--motion" id="panel-motion" role="tabpanel" aria-labelledby="tab-motion" hidden>
+                <div class="panel__top panel__top--light"><span class="mono">04 / Turntable Dynamics</span><span class="mono">360° Inspection</span></div>
+                <div class="motion-stage" aria-hidden="true">
+                  <div class="motion-rays"></div>
+                  <div class="motion-mark"><img src="assets/img/aioooki-mark.png" alt=""></div>
+                  <span class="motion-word motion-word--a">SCULPT</span>
+                  <span class="motion-word motion-word--b">LOOKDEV</span>
+                  <span class="motion-coord mono">FOV / 35mm<br>LIGHT / 5400K</span>
+                </div>
+                <div class="panel__bottom panel__bottom--light">
+                  <p>The character is tested under 360-degree rotating studio key, rim and fill lights to verify specular highlights, normal map bakes and edge silhouette readability.</p>
+                  <span class="mono">Pipeline: Sculpt / Bake / PBR / Engine</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <blockquote class="case__quote" data-reveal>
+          <p>“A 3D character isn't just polygons. It's a soul caught in the light.”</p>
+          <cite class="mono">— Character Art Principle 01</cite>
+        </blockquote>
+
+        <a class="next-case" href="#studio">
+          <span class="mono">Next</span>
+          <span class="next-case__name">The Character Studio &amp; Pipeline</span>
+          <span class="next-case__arrow" aria-hidden="true">↓</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="studio" id="studio" data-nav="ink">
+      <div class="container">
+        <div class="section-line">
+          <span class="mono">05 / The studio</span>
+          <span class="mono">Independent by design</span>
+        </div>
+
+        <div class="studio__head">
+          <h2 class="studio__title" data-reveal>Character studio.<br>Obsessive <span class="serif">craft.</span></h2>
+          <div class="studio__intro" data-reveal>
+            <p>AIOOOKI is an independent 3D character practice sculpting iconic figures, synthetic creatures and stylized protagonists for games, cinematics, collectibles and virtual fashion.</p>
+            <p>Fewer projects, deeper worlds. I work directly with game directors, lead character artists and creative leads from initial anatomical silhouette to final engine lookdev — no middle layer, zero diluted artistic intent.</p>
+          </div>
+        </div>
+
+        <div class="studio__grid">
+          <div class="studio__copy" data-reveal>
+            <p class="studio__lead">Silhouette first. Always. Then the tactile micro-surfaces.</p>
+            <p>Every character starts with gesture and weight. What is their physical posture? How do their proportions read at a glance? We find the anatomical tension, sculpt bold silhouettes in ZBrush, and author PBR shaders that react with visceral realism under any lighting condition.</p>
+            <ul class="studio__list">
+              <li><span class="mono">A</span>High-resolution ZBrush sculpts with distinct silhouettes</li>
+              <li><span class="mono">B</span>Multi-layer PBR lookdev, SSS skin &amp; tactile fabrics</li>
+              <li><span class="mono">C</span>Clean quad retopology optimized for rigging &amp; UE5</li>
+            </ul>
+            <a class="link-arrow" href="#contact">Commission a character <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="services">
+          <div class="services__head">
+            <span class="mono">Character Capabilities</span>
+            <span class="mono">High-Poly to Engine / Zero compromises</span>
+          </div>
+
+          <div class="service is-open">
+            <h3><button class="service__trigger" type="button" aria-expanded="true"><span class="mono">01</span><span>Character Design &amp; Digital Sculpting</span><span class="service__plus" aria-hidden="true">+</span></button></h3>
+            <div class="service__panel">
+              <p>Primary volume exploration, anatomical gesture and high-frequency detailing in ZBrush. Stylized protagonists, cinematic heroes, and digital muses sculpted with deliberate posture and attitude.</p>
+              <div class="service__deliverables"><span>Anatomical Sculpting</span><span>Silhouette Exploration</span><span>ZBrush High-Poly</span><span>Stylized Figures</span><span>Facial Expression Sets</span></div>
+            </div>
+          </div>
+          <div class="service">
+            <h3><button class="service__trigger" type="button" aria-expanded="false"><span class="mono">02</span><span>Look Development &amp; PBR Shading</span><span class="service__plus" aria-hidden="true">+</span></button></h3>
+            <div class="service__panel" hidden>
+              <p>High-end material authoring in Substance 3D Painter and Unreal Engine. Multi-layer subsurface scattering skin, photorealistic fabric weaves, iridescent chrome and weathered tactical gear.</p>
+              <div class="service__deliverables"><span>Substance 3D Painter</span><span>PBR Shader Setup</span><span>Micro-Displacement</span><span>Complex Fabric Lookdev</span><span>Skin SSS Shaders</span></div>
+            </div>
+          </div>
+          <div class="service">
+            <h3><button class="service__trigger" type="button" aria-expanded="false"><span class="mono">03</span><span>Real-Time &amp; Cinematic Topology</span><span class="service__plus" aria-hidden="true">+</span></button></h3>
+            <div class="service__panel" hidden>
+              <p>Production-ready quad retopology designed for smooth deformation around joints, shoulders, and facial animatics. Efficient UV packing, UDIM workflows and LOD generation for game engines.</p>
+              <div class="service__deliverables"><span>Quad Retopology</span><span>Deformation Loops</span><span>LOD Architecture</span><span>Unreal Engine 5 Ready</span><span>Clean UV Unwrapping</span></div>
+            </div>
+          </div>
+          <div class="service">
+            <h3><button class="service__trigger" type="button" aria-expanded="false"><span class="mono">04</span><span>Creature &amp; Hard-Surface Anatomy</span><span class="service__plus" aria-hidden="true">+</span></button></h3>
+            <div class="service__panel" hidden>
+              <p>Biomechanical monsters, cybernetic prosthetics, exoskeletons and alien physiology. Seamless transitions between organic flesh, robotic joints and precision hard-surface plating.</p>
+              <div class="service__deliverables"><span>Biomechanical Creatures</span><span>Cybernetic Implants</span><span>Exoskeletons</span><span>Hard-Surface Modeling</span><span>Creature Design</span></div>
+            </div>
+          </div>
+          <div class="service">
+            <h3><button class="service__trigger" type="button" aria-expanded="false"><span class="mono">05</span><span>Collectibles &amp; 3D Print Preparation</span><span class="service__plus" aria-hidden="true">+</span></button></h3>
+            <div class="service__panel" hidden>
+              <p>Engineering digital sculpts into physical reality. Dynamic posing, keying and hollowing, watertight solid STL/OBJ exports, and engineered joint tolerances for resin and vinyl production.</p>
+              <div class="service__deliverables"><span>Watertight Meshes</span><span>Digital Model Kits</span><span>Dynamic Posing</span><span>STL / OBJ Prep</span><span>Joint Keying Tolerances</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="process">
+          <div class="process__head"><span class="mono">Character Pipeline</span><span class="mono">From raw sketch to game engine</span></div>
+          <ol class="process__list">
+            <li><span class="mono">01</span><h4>Silhouette</h4><p>Nail the proportions, weight and attitude in 2D/3D blockouts before touching high-frequency detail.</p></li>
+            <li><span class="mono">02</span><h4>Sculpt</h4><p>Carve muscle rhythm, anatomical nuance, cloth tension and facial expression in ZBrush.</p></li>
+            <li><span class="mono">03</span><h4>Topology</h4><p>Lay down clean deformation loops, unwrap distortion-free UVs, and bake normal &amp; cavity maps.</p></li>
+            <li><span class="mono">04</span><h4>Lookdev</h4><p>Surface with tactile PBR textures, set up engine lighting turntables, and deliver production assets.</p></li>
+          </ol>
+        </div>
+
+        <div class="studio__cta">
+          <p class="studio__cta-title">Have a character in mind?<br><span class="serif">Let's sculpt it.</span></p>
+          <a class="btn btn--dark" href="#contact" data-magnetic><span>Commission a character</span><span class="btn__arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" data-nav="ink">
+      <div class="container">
+        <div class="section-line">
+          <span class="mono">06 / Inquire</span>
+          <span class="mono">Character Commissions · 2026 / 2027</span>
+        </div>
+
+        <div class="contact__head">
+          <h2 class="contact__title" data-reveal>Let's sculpt<br>something<br><span class="serif">unforgettable.</span></h2>
+          <span class="contact__asterisk" aria-hidden="true">✳</span>
+        </div>
+
+        <div class="contact__email-row">
+          <span class="mono">Start here</span>
+          <a class="contact__email" href="mailto:hello@aioooki.studio" data-cursor="Email">hello@aioooki.studio</a>
+          <button class="copy-btn copy-btn--contact" type="button" data-copy="hello@aioooki.studio" data-copy-label>Copy email <span aria-hidden="true">↗</span></button>
+        </div>
+
+        <div class="contact__grid">
+          <div class="contact__cell">
+            <span class="mono">Availability</span>
+            <p>Open for select character commissions,<br>game studio contracts and lookdev from Q1 2027.</p>
+            <span class="live-dot-row"><span class="live-dot"></span> Two production slots left</span>
+          </div>
+          <div class="contact__cell">
+            <span class="mono">Social &amp; Art</span>
+            <div class="contact__links">
+              <a href="https://www.artstation.com/" target="_blank" rel="noopener">ArtStation <span>↗</span></a>
+              <a href="https://www.instagram.com/ai.ooo.ki/" target="_blank" rel="noopener">Instagram <span>↗</span></a>
+              <a href="https://www.behance.net/" target="_blank" rel="noopener">Behance <span>↗</span></a>
+            </div>
+          </div>
+          <div class="contact__cell">
+            <span class="mono">The fine print</span>
+            <p>Remote by default.<br>Worldwide by design.<br>GMT +1 / your time: <span data-clock>--:--</span></p>
+          </div>
+          <div class="contact__cell contact__cell--stamp">
+            <div class="contact__badge" aria-hidden="true">
+              <svg viewBox="0 0 160 160" focusable="false">
+                <defs><path id="contactCircle" d="M80,80 m-58,0 a58,58 0 1,1 116,0 a58,58 0 1,1 -116,0"/></defs>
+                <text><textPath href="#contactCircle">LET'S MAKE SOMETHING UNFORGETTABLE · LET'S MAKE SOMETHING UNFORGETTABLE ·</textPath></text>
+              </svg>
+              <span>↗</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__wordmark" aria-hidden="true">AIOOOKI</div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" data-nav="chalk">
+    <div class="container">
+      <div class="footer__top">
+        <a class="footer__brand" href="#top" aria-label="Back to top">
+          <span class="footer__fan" aria-hidden="true">
+            <svg viewBox="0 0 48 48" focusable="false">
+              <g transform="translate(24 39)" fill="#FF8EB3">
+                <path d="M0 0 C -4 -8 -6.5 -18 -3.4 -28.5 C -1.8 -33 1.8 -33 3.4 -28.5 C 6.5 -18 4 -8 0 0 Z" transform="rotate(0)"/>
+                <path d="M0 0 C -4 -8 -6.5 -18 -3.4 -28.5 C -1.8 -33 1.8 -33 3.4 -28.5 C 6.5 -18 4 -8 0 0 Z" transform="rotate(25)"/>
+                <path d="M0 0 C -4 -8 -6.5 -18 -3.4 -28.5 C -1.8 -33 1.8 -33 3.4 -28.5 C 6.5 -18 4 -8 0 0 Z" transform="rotate(50)"/>
+                <path d="M0 0 C -4 -8 -6.5 -18 -3.4 -28.5 C -1.8 -33 1.8 -33 3.4 -28.5 C 6.5 -18 4 -8 0 0 Z" transform="rotate(75)"/>
+                <path d="M0 0 C -4 -8 -6.5 -18 -3.4 -28.5 C -1.8 -33 1.8 -33 3.4 -28.5 C 6.5 -18 4 -8 0 0 Z" transform="rotate(-25)"/>
+                <path d="M0 0 C -4 -8 -6.5 -18 -3.4 -28.5 C -1.8 -33 1.8 -33 3.4 -28.5 C 6.5 -18 4 -8 0 0 Z" transform="rotate(-50)"/>
+                <path d="M0 0 C -4 -8 -6.5 -18 -3.4 -28.5 C -1.8 -33 1.8 -33 3.4 -28.5 C 6.5 -18 4 -8 0 0 Z" transform="rotate(-75)"/>
+              </g>
+            </svg>
+          </span>
+          <span>AIOOOKI<sup>®</sup></span>
+        </a>
+        <nav class="footer__nav" aria-label="Footer">
+          <a href="#work">Catalogue</a>
+          <a href="#ghost">Characters</a>
+          <a href="#craft">Lookdev Lab</a>
+          <a href="#studio">Studio</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="footer__toplink" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 AIOOOKI®. All rights reserved.</span>
+        <span>Independent 3D Character Designer &amp; Sculptor / working worldwide</span>
+        <span>Original character IP &amp; digital lookdev.</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+
+  <!-- Catalogue Lightbox (Instagram Embed) -->
+  <div class="cat-lightbox" id="cat-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Character preview">
+    <div class="cat-lightbox__backdrop" data-cat-close></div>
+    <div class="cat-lightbox__content">
+      <button class="cat-lightbox__close" type="button" data-cat-close aria-label="Close">✕</button>
+      <button class="cat-lightbox__prev" type="button" data-cat-prev aria-label="Previous">‹</button>
+      <button class="cat-lightbox__next" type="button" data-cat-next aria-label="Next">›</button>
+      <div class="cat-lightbox__embed" id="cat-lightbox-embed">
+        <!-- Instagram iframe injected here dynamically -->
+      </div>
+      <div class="cat-lightbox__info">
+        <span class="cat-lightbox__title"></span>
+        <a class="cat-lightbox__link" href="#" target="_blank" rel="noopener">View on Instagram ↗</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

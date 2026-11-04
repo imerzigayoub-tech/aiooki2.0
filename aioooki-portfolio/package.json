@@ -1,0 +1,14 @@
+{
+  "name": "aioooki-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AIOOOKI® — independent 3D character designer and digital sculptor. Portfolio for 3D character design, creature art, and digital lookdev.",
+  "scripts": {
+    "start": "node serve.mjs",
+    "dev": "node serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
